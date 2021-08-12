@@ -269,90 +269,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/11/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="动物农场和童话故事">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="动物农场和童话故事">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/11/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-08-11 23:43:02 / Modified: 22:51:04" itemprop="dateCreated datePublished" datetime="2021-08-11T23:43:02+08:00">2021-08-11</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>hexo中的配置文件有两个，名字都是<code> _config.yml</code>,位于网站根目录的是全局配置文件，位于主题目录的是主题配置文件。</p>
-<p>菜单项的图标是<a href="www.fontawesome.com.cn/icons-ui">Font Awesome</a>图标的名字，<code>icon: globe</code></p>
-<h3 id="主题风格"><a href="#主题风格" class="headerlink" title="主题风格"></a>主题风格</h3><p>在主题配置文件修改<code>scheme</code>字段</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">themes\next\_config.yml</span><br><span class="line"></span><br><span class="line"># Schemes</span><br><span class="line">scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
-
-<h3 id="站点信息"><a href="#站点信息" class="headerlink" title="站点信息"></a>站点信息</h3><p>在全局配置文件修改<code>site</code>字段</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 动物农场和童话故事</span><br><span class="line">subtitle: &#x27;&#x27;</span><br><span class="line">description: &#x27;一不怕苦，二不怕死，最高纲领，玉石俱焚&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: author</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone: &#x27;&#x27;</span><br></pre></td></tr></table></figure>
-
-<h3 id="首页显示文章摘要"><a href="#首页显示文章摘要" class="headerlink" title="首页显示文章摘要"></a>首页显示文章摘要</h3><p>在主题配置文件修改<code>auto_excerpt</code>字段</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">themes\next\_config.yml</span><br><span class="line"></span><br><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 50</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="修改页脚"><a href="#修改页脚" class="headerlink" title="修改页脚"></a>修改页脚</h3><p>在主题配置文件中修改<code>footer</code>字段</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">themes\next\_config.yml</span><br><span class="line"></span><br><span class="line">footer:  # 底部信息区</span><br><span class="line">  since: 2018  # 建站时间</span><br><span class="line">  icon:</span><br><span class="line">    name: heart   # 图标名称</span><br><span class="line">    animated: true   # 开启动画</span><br><span class="line">    color: &quot;#ff0000&quot;   # 图标颜色</span><br><span class="line"></span><br><span class="line">  powered:</span><br><span class="line">    enable: true  # 显示由 Hexo 强力驱动</span><br><span class="line">    version: false  # 隐藏 Hexo 版本号</span><br><span class="line"></span><br><span class="line">  theme:</span><br><span class="line">    enable: true  # 显示所用的主题名称</span><br><span class="line">    version: false  # 隐藏主题版本号</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="网站访问量"><a href="#网站访问量" class="headerlink" title="网站访问量"></a>网站访问量</h3><p>在主题配置文件中修改<code>busuanzi_count</code>字段</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true  */本条代码的用途待定</span><br></pre></td></tr></table></figure>
-
-<p>在<code>themes/你的主题/layout/_partial/footer.ejs</code>合适位置添加代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div calss=&quot;count-span&quot;&gt;</span><br><span class="line">    访问次数: &lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次|</span><br><span class="line">    访问人数: &lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="建站时间"><a href="#建站时间" class="headerlink" title="建站时间"></a>建站时间</h3><p>修改<code>themes\next\layout\_partials</code> 下面的 <code>footer.swig</code>，在合适位置添加代码:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id=&quot;timeDate&quot;&gt;载入天数...&lt;/span&gt;&lt;span id=&quot;times&quot;&gt;载入时分秒...&lt;/span&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    var now = new Date(); </span><br><span class="line">    function createtime() &#123; </span><br><span class="line">        var grt= new Date(&quot;08/10/2018 17:38:00&quot;);//在此处修改你的建站时间</span><br><span class="line">        now.setTime(now.getTime()+250); </span><br><span class="line">        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); </span><br><span class="line">        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); </span><br><span class="line">        if(String(hnum).length ==1 )&#123;hnum = &quot;0&quot; + hnum;&#125; minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); </span><br><span class="line">        mnum = Math.floor(minutes); if(String(mnum).length ==1 )&#123;mnum = &quot;0&quot; + mnum;&#125; </span><br><span class="line">        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); </span><br><span class="line">        snum = Math.round(seconds); if(String(snum).length ==1 )&#123;snum = &quot;0&quot; + snum;&#125; </span><br><span class="line">        document.getElementById(&quot;timeDate&quot;).innerHTML = &quot;本站已安全运行 &quot;+dnum+&quot; 天 &quot;; </span><br><span class="line">        document.getElementById(&quot;times&quot;).innerHTML = hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;; </span><br><span class="line">    &#125; </span><br><span class="line">setInterval(&quot;createtime()&quot;,250);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/11/sublime%E6%95%99%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -485,6 +401,90 @@
 <p>在主题配置文件中添加以下代码：<br>themes\next_config.yml</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># mouse click effect: fireworks | explosion | love | text</span><br><span class="line">cursor_effect: fireworks</span><br></pre></td></tr></table></figure>
 <p>鼠标点击特效完成。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/11/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="动物农场和童话故事">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动物农场和童话故事">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/08/11/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-08-11 23:43:02 / Modified: 22:51:04" itemprop="dateCreated datePublished" datetime="2021-08-11T23:43:02+08:00">2021-08-11</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>hexo中的配置文件有两个，名字都是<code> _config.yml</code>,位于网站根目录的是全局配置文件，位于主题目录的是主题配置文件。</p>
+<p>菜单项的图标是<a href="www.fontawesome.com.cn/icons-ui">Font Awesome</a>图标的名字，<code>icon: globe</code></p>
+<h3 id="主题风格"><a href="#主题风格" class="headerlink" title="主题风格"></a>主题风格</h3><p>在主题配置文件修改<code>scheme</code>字段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">themes\next\_config.yml</span><br><span class="line"></span><br><span class="line"># Schemes</span><br><span class="line">scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h3 id="站点信息"><a href="#站点信息" class="headerlink" title="站点信息"></a>站点信息</h3><p>在全局配置文件修改<code>site</code>字段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 动物农场和童话故事</span><br><span class="line">subtitle: &#x27;&#x27;</span><br><span class="line">description: &#x27;一不怕苦，二不怕死，最高纲领，玉石俱焚&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: author</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone: &#x27;&#x27;</span><br></pre></td></tr></table></figure>
+
+<h3 id="首页显示文章摘要"><a href="#首页显示文章摘要" class="headerlink" title="首页显示文章摘要"></a>首页显示文章摘要</h3><p>在主题配置文件修改<code>auto_excerpt</code>字段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">themes\next\_config.yml</span><br><span class="line"></span><br><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 50</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="修改页脚"><a href="#修改页脚" class="headerlink" title="修改页脚"></a>修改页脚</h3><p>在主题配置文件中修改<code>footer</code>字段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">themes\next\_config.yml</span><br><span class="line"></span><br><span class="line">footer:  # 底部信息区</span><br><span class="line">  since: 2018  # 建站时间</span><br><span class="line">  icon:</span><br><span class="line">    name: heart   # 图标名称</span><br><span class="line">    animated: true   # 开启动画</span><br><span class="line">    color: &quot;#ff0000&quot;   # 图标颜色</span><br><span class="line"></span><br><span class="line">  powered:</span><br><span class="line">    enable: true  # 显示由 Hexo 强力驱动</span><br><span class="line">    version: false  # 隐藏 Hexo 版本号</span><br><span class="line"></span><br><span class="line">  theme:</span><br><span class="line">    enable: true  # 显示所用的主题名称</span><br><span class="line">    version: false  # 隐藏主题版本号</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="网站访问量"><a href="#网站访问量" class="headerlink" title="网站访问量"></a>网站访问量</h3><p>在主题配置文件中修改<code>busuanzi_count</code>字段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  enable: true  */本条代码的用途待定</span><br></pre></td></tr></table></figure>
+
+<p>在<code>themes/你的主题/layout/_partial/footer.ejs</code>合适位置添加代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div calss=&quot;count-span&quot;&gt;</span><br><span class="line">    访问次数: &lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次|</span><br><span class="line">    访问人数: &lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="建站时间"><a href="#建站时间" class="headerlink" title="建站时间"></a>建站时间</h3><p>修改<code>themes\next\layout\_partials</code> 下面的 <code>footer.swig</code>，在合适位置添加代码:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id=&quot;timeDate&quot;&gt;载入天数...&lt;/span&gt;&lt;span id=&quot;times&quot;&gt;载入时分秒...&lt;/span&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    var now = new Date(); </span><br><span class="line">    function createtime() &#123; </span><br><span class="line">        var grt= new Date(&quot;08/10/2018 17:38:00&quot;);//在此处修改你的建站时间</span><br><span class="line">        now.setTime(now.getTime()+250); </span><br><span class="line">        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); </span><br><span class="line">        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); </span><br><span class="line">        if(String(hnum).length ==1 )&#123;hnum = &quot;0&quot; + hnum;&#125; minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); </span><br><span class="line">        mnum = Math.floor(minutes); if(String(mnum).length ==1 )&#123;mnum = &quot;0&quot; + mnum;&#125; </span><br><span class="line">        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); </span><br><span class="line">        snum = Math.round(seconds); if(String(snum).length ==1 )&#123;snum = &quot;0&quot; + snum;&#125; </span><br><span class="line">        document.getElementById(&quot;timeDate&quot;).innerHTML = &quot;本站已安全运行 &quot;+dnum+&quot; 天 &quot;; </span><br><span class="line">        document.getElementById(&quot;times&quot;).innerHTML = hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;; </span><br><span class="line">    &#125; </span><br><span class="line">setInterval(&quot;createtime()&quot;,250);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
       
     </div>
