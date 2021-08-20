@@ -663,6 +663,16 @@ font.douyin {
   width: 100%;
   z-index: -1;
 }
+.BC {
+  font-weight: bold;
+  text-align: center;
+}
+.BG {
+  border: 1px solid #f08080;
+  border-radius: 10;
+  padding: 10;
+  background-color: #f08080;
+}
 article.nexmoe-py > *:first-child {
   margin-top: 0 !important;
 }
