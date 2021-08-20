@@ -668,10 +668,10 @@ font.douyin {
   text-align: center;
 }
 .BG {
-  border: 1px solid #87cefa;
+  border: 1px solid #d3d3d3;
   border-radius: 10px;
   padding: 10px;
-  background-color: #87cefa;
+  background-color: #d3d3d3;
 }
 article.nexmoe-py > *:first-child {
   margin-top: 0 !important;
