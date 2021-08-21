@@ -673,6 +673,21 @@ font.douyin {
   padding: 10px;
   background-color: #d3d3d3;
 }
+.SB {
+  color: #87cefa;
+}
+.SR {
+  color: #f08080;
+}
+.SO {
+  color: #ffa07a;
+}
+.SP {
+  color: #ffb6c1;
+}
+.SG {
+  color: #d3d3d3;
+}
 article.nexmoe-py > *:first-child {
   margin-top: 0 !important;
 }
