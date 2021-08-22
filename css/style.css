@@ -667,6 +667,13 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+.AB {
+  color: #000;
+  border: 1px solid #ff6347;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ff6347;
+}
 .BC {
   font-weight: bold;
   text-align: center;
