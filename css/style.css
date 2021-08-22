@@ -663,30 +663,109 @@ font.douyin {
   width: 100%;
   z-index: -1;
 }
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 .BC {
   font-weight: bold;
   text-align: center;
 }
-.BG {
+.BB {
   border: 1px solid #d3d3d3;
   border-radius: 10px;
   padding: 10px;
   background-color: #d3d3d3;
 }
-.SB {
+.DBL {
   color: #87cefa;
 }
-.SR {
+.DBD {
+  color: #00bfff;
+}
+.DRL {
   color: #f08080;
 }
-.SO {
+.DRD {
+  color: #ff4500;
+}
+.DOL {
   color: #ffa07a;
 }
-.SP {
+.DOD {
+  color: #ff6347;
+}
+.DPL {
   color: #ffb6c1;
 }
-.SG {
+.DPD {
+  color: #ff69b4;
+}
+.DGL {
   color: #d3d3d3;
+}
+.DGD {
+  color: #a9a9a9;
+}
+.SBL {
+  color: #87cefa;
+}
+.SBD {
+  color: #00bfff;
+}
+.SRL {
+  color: #f08080;
+}
+.SRD {
+  color: #ff4500;
+}
+.SOL {
+  color: #ffa07a;
+}
+.SOD {
+  color: #ff6347;
+}
+.SPL {
+  color: #ffb6c1;
+}
+.SPD {
+  color: #ff69b4;
+}
+.SGL {
+  color: #d3d3d3;
+}
+.SGD {
+  color: #a9a9a9;
+}
+.PBL {
+  color: #87cefa;
+}
+.PBD {
+  color: #00bfff;
+}
+.PRL {
+  color: #f08080;
+}
+.PRD {
+  color: #ff4500;
+}
+.POL {
+  color: #ffa07a;
+}
+.POD {
+  color: #ff6347;
+}
+.PPL {
+  color: #ffb6c1;
+}
+.PPD {
+  color: #ff69b4;
+}
+.PGL {
+  color: #d3d3d3;
+}
+.PGD {
+  color: #a9a9a9;
 }
 article.nexmoe-py > *:first-child {
   margin-top: 0 !important;
