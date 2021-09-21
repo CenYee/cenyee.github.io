@@ -19,14 +19,14 @@
 <meta property="og:site_name" content="动物农场和童话故事">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-09-21T07:52:48.000Z">
-<meta property="article:modified_time" content="2021-09-21T07:53:41.656Z">
+<meta property="article:modified_time" content="2021-09-21T09:34:43.659Z">
 <meta property="article:author" content="动物农场和童话故事">
 <meta property="article:tag" content="html">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/hexo-theme-nexmoe@latest/source/lib/mdui_043tiny/css/mdui.css,npm/hexo-theme-nexmoe@latest/source/lib/iconfont/iconfont.css?v=233" crossorigin>
-  <link rel="stylesheet" href="/css/style.css?v=1632216640034">
+  <link rel="stylesheet" href="/css/style.css?v=1632216898424">
   
-  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1632216640034">
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1632216898424">
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -231,32 +231,19 @@
 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">&lt;meta <span class="hljs-attribute">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>/&gt;<br>   &lt;meta <span class="hljs-attribute">http-equiv</span>=<span class="hljs-string">&quot;refresh&quot;</span> <span class="hljs-attribute">content</span>=<span class="hljs-string">&quot;6;url=http://www.baidu.com&quot;</span>/&gt;<br></code></pre></td></tr></table></figure>
 <p><code>meta charset=&quot;utf-8&quot;</code>要放在title标签和其他meta标签之前。</p>
 <p>style标签:定义元素的CSS样式。</p>
-<pre><code>&lt;head&gt;
-&lt;style type=&quot;text/css&quot;/&gt;
-&lt;/head&gt;
-</code></pre>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span><br>   <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/css&quot;</span>/&gt;</span><span class="xml"></span><br><span class="xml">   <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span></span><br></code></pre></td></tr></table></figure>
 <p>script标签：定义网页的JavaScript代码。</p>
-<pre><code>&lt;head&gt;
-&lt;script&gt;
-&lt;!--JavaScript代码--&gt;
-&lt;/script&gt;
-&lt;/head&gt;
-</code></pre>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span><br>   <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="handlebars"><span class="xml"></span></span><br><span class="xml"><span class="handlebars">   <span class="hljs-comment">&lt;!--JavaScript代码--&gt;</span></span></span><br><span class="xml"><span class="handlebars">   </span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br>   <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span><br></code></pre></td></tr></table></figure>
 <p>link标签：引入外部的CSS文件。</p>
-<pre><code>&lt;head&gt;
-&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css/index.css&quot;/&gt;
-</code></pre>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs routeros">&lt;head&gt;<br>   &lt;link <span class="hljs-attribute">type</span>=<span class="hljs-string">&quot;text/css&quot;</span> <span class="hljs-attribute">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attribute">href</span>=<span class="hljs-string">&quot;css/index.css&quot;</span>/&gt;<br></code></pre></td></tr></table></figure>
 <p>标题标签：</p>
-<pre><code>&lt;p&gt;标题&lt;/p&gt;
-</code></pre>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>标题<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br></code></pre></td></tr></table></figure>
 <p>标题标签有六个级别：h1——h6。</p>
 <p>段落标签：</p>
-<pre><code>&lt;p&gt;段落&lt;/p&gt;
-</code></pre>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>段落<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br></code></pre></td></tr></table></figure>
 <p>段落标签会自动换行，并且段落之间有一定的间距。</p>
 <p>换行标签：</p>
-<pre><code>&lt;br/&gt;
-</code></pre>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-section">&lt;br/&gt;</span><br></code></pre></td></tr></table></figure>
 <p>文本标签:</p>
 <p>粗体标签:strong<br>斜体标签：em<br>上标标签：sup<br>下标标签：sub<br>中划线标签：s<br>下划线标签：u<br>大字号标签：big<br>小字号标签：small<br>水平线标签：hr(horizon:水平线)</p>
 <p>div标签:</p>
@@ -264,18 +251,12 @@
 <p>div标签内部可以放入所有其他标签。</p>
 <p>特殊符号:</p>
 <p>在HTML中,特殊符号的实现需要通过代码实现.特殊符号以”&amp;”开头,以”;”结尾。</p>
-<p>空格:&nbsp;</p>
+<p>空格:<code>&amp;nbsp;</code></p>
 <h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>有序列表：</p>
 <p>ol(ordered list)：有序列表。</p>
-<pre><code>&lt;ol&gt;、&lt;/ol&gt;定义有序列表的开始和结束。
-&lt;li&gt;、&lt;/li&gt;定义列表项。
-ol标签和li标签一起使用，不可以单独使用。ol标签的子标签只能是li标签。
-文本只能位于li标签内。
-无序列表同。
-</code></pre>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs css">&lt;<span class="hljs-selector-tag">ol</span>&gt;、&lt;/<span class="hljs-selector-tag">ol</span>&gt;定义有序列表的开始和结束。<br>   &lt;<span class="hljs-selector-tag">li</span>&gt;、&lt;/<span class="hljs-selector-tag">li</span>&gt;定义列表项。<br>   <span class="hljs-selector-tag">ol</span>标签和<span class="hljs-selector-tag">li</span>标签一起使用，不可以单独使用。<span class="hljs-selector-tag">ol</span>标签的子标签只能是<span class="hljs-selector-tag">li</span>标签。<br>   文本只能位于<span class="hljs-selector-tag">li</span>标签内。<br>   无序列表同。<br></code></pre></td></tr></table></figure>
 <p>有序列表默认采用数字顺序，可以使用type属性改变顺序样式。</p>
-<pre><code>&lt;ol type=&quot;属性值&quot;&gt;
-</code></pre>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">&lt;ol <span class="hljs-attribute">type</span>=<span class="hljs-string">&quot;属性值&quot;</span>&gt;<br></code></pre></td></tr></table></figure>
 <p>有序列表中，type属性的取值：<br>1：阿拉伯数字。<br>a：小写英文字母。<br>b：大写英文字母。</p>
 <p>无序列表：</p>
 <p>ul(unordered list)：无序列表。</p>
@@ -401,7 +382,7 @@ ol标签和li标签一起使用，不可以单独使用。ol标签的子标签�
 
  
 
-<script async src="/js/app.js?v=1632216640049"></script>
+<script async src="/js/app.js?v=1632216898441"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
