@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>一台电脑管理多个hexo博客 - 动物农场和童话故事</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/CemseLee/House/favicon.png" type="image/png" />
+  <meta property="og:type" content="article">
+<meta property="og:title" content="一台电脑管理多个hexo博客">
+<meta property="og:url" content="https://animalfarmandfairystory.com/8db28b2af462/index.html">
+<meta property="og:site_name" content="动物农场和童话故事">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/CemseLee/House/gitcrl.png">
+<meta property="article:published_time" content="2021-09-21T09:38:24.000Z">
+<meta property="article:modified_time" content="2021-09-21T09:55:44.651Z">
+<meta property="article:author" content="动物农场和童话故事">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/CemseLee/House/gitcrl.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/hexo-theme-nexmoe@latest/source/lib/mdui_043tiny/css/mdui.css,npm/hexo-theme-nexmoe@latest/source/lib/iconfont/iconfont.css?v=233" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=1632218156675">
+  
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1632218156675">
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/CemseLee/House/backpicture.png)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="动物农场和童话故事" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/CemseLee/House/avatar.png" alt="动物农场和童话故事"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="动物农场和童话故事">
+            <img src="https://cdn.jsdelivr.net/gh/CemseLee/House/avatar.png" alt="动物农场和童话故事" alt="动物农场和童话故事">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>6</div>
+        <div><span>标签</span>4</div>
+        <div><span>分类</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/PY.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+         
+            <form id="search_form" action_e="https://cn.bing.com/search?q=site:luxinghua.org" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+            </form>
+         
+    </div>
+</div>
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://weibo.com/" target="_blank" mdui-tooltip="{content: 'weibo'}" style="color: rgb(203, 43, 36);background-color: rgba(203,43,36, .1);">
+            <i class="nexmoefont icon-weibo"></i>
+        </a><a class="mdui-ripple" href="https://jq.qq.com/" target="_blank" mdui-tooltip="{content: 'QQ群'}" style="color: rgb(249, 174, 8);background-color: rgba(249, 174, 8, .1);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a><a class="mdui-ripple" href="https://space.bilibili.com/" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-bilibili"></i>
+        </a><a class="mdui-ripple" href="https://github.com/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+  
+  
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a> <a href="/tags/html/" style="font-size: 10px;">html</a> <a href="/tags/sublime/" style="font-size: 10px;">sublime</a>
+    </div>
+    
+  </div>
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2021 动物农场和童话故事
+        <!--Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>-->
+        
+
+</br>
+
+<span id="sitetime"></span>
+<script language=javascript>
+  function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000;
+    var minutes = seconds * 60;
+    var hours = minutes * 60;
+    var days = hours * 24;
+    var years = days * 365;
+    var today = new Date();
+    var todayYear = today.getFullYear();
+    var todayMonth = today.getMonth()+1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    /* 
+    Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+    year - 作为date对象的年份，为4位年份值
+    month - 0-11之间的整数，做为date对象的月份
+    day - 1-31之间的整数，做为date对象的天数
+    hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+    minutes - 0-59之间的整数，做为date对象的分钟数
+    seconds - 0-59之间的整数，做为date对象的秒数
+    microseconds - 0-999之间的整数，做为date对象的毫秒数
+        */
+    var t1 = Date.UTC(2021,09,10,22,00,00); //北京时间2018-2-13 00:00:00
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+    var diff = t2-t1;
+    var diffYears = Math.floor(diff/years);
+    var diffDays = Math.floor((diff/days)-diffYears*365);
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+    document.getElementById("sitetime").innerHTML=" 本站已经运行"+/*diffYears+" 年 "+*/diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+  }
+  siteTime();
+</script>
+
+</br>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>站点总访问人数:
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+      
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+
+  <article>
+    
+        <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
+            <img data-src="https://cdn.jsdelivr.net/gh/CemseLee/House/backpicture.png" data-sizes="auto" alt="一台电脑管理多个hexo博客" class="lazyload">
+            <h1>一台电脑管理多个hexo博客</h1>
+        </div>
+    
+    
+    <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2021年09月21日</a>
+    <a><i class="nexmoefont icon-areachart"></i>550 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 2 分钟</a>
+</div>
+
+    
+
+    </br>
+<span id="more"></span>
+
+<h3 id="查看当前的密钥"><a href="#查看当前的密钥" class="headerlink" title="查看当前的密钥"></a>查看当前的密钥</h3><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs jboss-cli"><span class="hljs-keyword">ls</span> ~<span class="hljs-string">/.ssh</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="建立新的密钥"><a href="#建立新的密钥" class="headerlink" title="建立新的密钥"></a>建立新的密钥</h3><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs jboss-cli"><span class="hljs-keyword">cd</span> ~<span class="hljs-string">/.ssh</span><br><br>ssh-keygen -t rsa -C <span class="hljs-string">&quot;这里是你的邮箱&quot;</span><br><br></code></pre></td></tr></table></figure>
+
+<p>回车后会出现：</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs gradle">Generating <span class="hljs-keyword">public</span>/<span class="hljs-keyword">private</span> rsa key pair.  <br> Enter <span class="hljs-keyword">file</span> in which to save the key (<span class="hljs-regexp">/c/U</span>sers<span class="hljs-regexp">/you/</span>.ssh/id_rsa): <br></code></pre></td></tr></table></figure>
+<p>此时须要你输入新密钥的名称，一样要注意区别新密钥名称和旧密钥名称，不要相同！</p>
+<h3 id="配置config"><a href="#配置config" class="headerlink" title="配置config"></a>配置config</h3><p>查看.ssh/根路径下, 有没有config文件，没有则使用如下命令建立一个config文件：</p>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">git touch config<br></code></pre></td></tr></table></figure>
+<p>写入如下配置：</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs crmsh"><span class="hljs-comment">#第一个帐号，默认使用的帐号，不用作任何更改</span><br>Host github.com<br>	HostName github.com<br>	<span class="hljs-keyword">User</span> <span class="hljs-title">git</span><br>	IdentityFile ~/.ssh/id_rsa<br>	<br><span class="hljs-comment">#第二个新帐号，#&quot;xxxxxx&quot;为前缀名，能够任意设置，要记住，后面须要用到</span><br>Host xxxxxx<br>	HostName github.com<br>	<span class="hljs-keyword">User</span> <span class="hljs-title">git</span><br>	IdentityFile ~/.ssh/这里是你建立的新密钥的名称<br></code></pre></td></tr></table></figure>
+<h3 id="清空本地的-SSH-缓存，添加新的-SSH-密钥到-SSH-agent中"><a href="#清空本地的-SSH-缓存，添加新的-SSH-密钥到-SSH-agent中" class="headerlink" title="清空本地的 SSH 缓存，添加新的 SSH 密钥到 SSH agent中:"></a>清空本地的 SSH 缓存，添加新的 SSH 密钥到 SSH agent中:</h3><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros">ssh-<span class="hljs-builtin-name">add</span> -D<br>ssh-<span class="hljs-builtin-name">add</span> xxxxxx #旧密钥名称，通常是id_rsa<br>ssh-<span class="hljs-builtin-name">add</span> xxxxxx #新建立的密钥名称<br></code></pre></td></tr></table></figure>
+<p>若是执行以上命令出现错误：<code>Could not open a connection to your authentication agent.</code>，那么就须要先执行<code>ssh-agent bash</code>，再执行以上命令.</p>
+<h3 id="验证配置是否成功"><a href="#验证配置是否成功" class="headerlink" title="验证配置是否成功"></a>验证配置是否成功</h3><p>依次执行如下命令，第一个为默认ssh_key验证；第二个为新的ssh_key验证，其中“xxxxxx”为先前在config文件中的命名:</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">ssh -T <span class="hljs-symbol">git@</span>github.com<br>ssh -T <span class="hljs-symbol">git@</span>xxxxxxx.github.com<br></code></pre></td></tr></table></figure>
+
+<p>依次显示如下信息, 则说明配置成功：</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">Hi 你的用户名! You<span class="hljs-symbol">&#x27;ve</span> successfully authenticated, but GitHub does <span class="hljs-keyword">not</span> provide shell <span class="hljs-keyword">access</span>.<br></code></pre></td></tr></table></figure>
+<h3 id="取消全局用户名-邮箱配置，单独设置用户名-邮箱"><a href="#取消全局用户名-邮箱配置，单独设置用户名-邮箱" class="headerlink" title="取消全局用户名/邮箱配置，单独设置用户名/邮箱"></a>取消全局用户名/邮箱配置，单独设置用户名/邮箱</h3><p>执行以下命令，取消全局用户名和邮箱配置（若是已经设置了全局的话）：</p>
+<figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs brainfuck"><span class="hljs-comment">git</span> <span class="hljs-comment">config</span> --<span class="hljs-comment">global</span> --<span class="hljs-comment">unset</span> <span class="hljs-comment">user</span><span class="hljs-string">.</span><span class="hljs-comment">name</span><br><span class="hljs-comment">git</span> <span class="hljs-comment">config</span> --<span class="hljs-comment">global</span> --<span class="hljs-comment">unset</span> <span class="hljs-comment">user</span><span class="hljs-string">.</span><span class="hljs-comment">email</span><br></code></pre></td></tr></table></figure>
+<p>分别进入你的两个Hexo博客.git目录下执行如下命令单独设置用户名/邮箱：</p>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git config <span class="hljs-keyword">user</span>.name &quot;这里是用户名&quot;<br>git config <span class="hljs-keyword">user</span>.email &quot;这里是你的邮箱&quot;<br></code></pre></td></tr></table></figure>
+<p>上面的流程执行完毕后，新hexo仍然无法上传，显示：</p>
+<figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-comment">remote: Permission to 新hexo denied to 旧hexo</span><br></code></pre></td></tr></table></figure>
+<p>需要进入控制面板、凭证管理器，删除存在的github账号。</p>
+<img src="https://cdn.jsdelivr.net/gh/CemseLee/House/gitcrl.png"/>
+  </article>
+
+  
+    
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>动物农场和童话故事<br>
+    <strong>本文链接：</strong><a href="https://animalfarmandfairystory.com/8db28b2af462/" title="https:&#x2F;&#x2F;animalfarmandfairystory.com&#x2F;8db28b2af462&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;animalfarmandfairystory.com&#x2F;8db28b2af462&#x2F;</a><br>
+    
+      <strong>版权声明：</strong>本文版权归作者所有。
+    
+  </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/hexo/" rel="tag">hexo</a>
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: '982JCMa7hVNbQtmkMq6wIJ2d-MdYXbMMI',
+        appKey: 'BP3g40BSpzp1x3qN9K9I81ev'
+    })
+</script>
+</section>
+  </div>
+</div>
+        <div class="nexmoe-post-right">
+          <div class="nexmoe-fixed">
+            <div class="nexmoe-tool"> 
+              
+                
+                  
+                  
+                  
+                    <button class="mdui-fab catalog" style="overflow:unset;">
+                      <i class="nexmoefont icon-i-catalog"></i>
+                      <div class="nexmoe-toc">
+                        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E7%9A%84%E5%AF%86%E9%92%A5"><span class="toc-number">1.</span> <span class="toc-text">查看当前的密钥</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BB%BA%E7%AB%8B%E6%96%B0%E7%9A%84%E5%AF%86%E9%92%A5"><span class="toc-number">2.</span> <span class="toc-text">建立新的密钥</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEconfig"><span class="toc-number">3.</span> <span class="toc-text">配置config</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B8%85%E7%A9%BA%E6%9C%AC%E5%9C%B0%E7%9A%84-SSH-%E7%BC%93%E5%AD%98%EF%BC%8C%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84-SSH-%E5%AF%86%E9%92%A5%E5%88%B0-SSH-agent%E4%B8%AD"><span class="toc-number">4.</span> <span class="toc-text">清空本地的 SSH 缓存，添加新的 SSH 密钥到 SSH agent中:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E8%AF%81%E9%85%8D%E7%BD%AE%E6%98%AF%E5%90%A6%E6%88%90%E5%8A%9F"><span class="toc-number">5.</span> <span class="toc-text">验证配置是否成功</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%96%E6%B6%88%E5%85%A8%E5%B1%80%E7%94%A8%E6%88%B7%E5%90%8D-%E9%82%AE%E7%AE%B1%E9%85%8D%E7%BD%AE%EF%BC%8C%E5%8D%95%E7%8B%AC%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E5%90%8D-%E9%82%AE%E7%AE%B1"><span class="toc-number">6.</span> <span class="toc-text">取消全局用户名&#x2F;邮箱配置，单独设置用户名&#x2F;邮箱</span></a></li></ol>
+                      </div>
+                    </button>
+                  
+                    
+                
+              
+              <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+ 
+
+<script async src="/js/app.js?v=1632218156682"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
+<script>
+	$(".justified-gallery").justifiedGallery({
+		rowHeight: 160,
+		margins: 10,
+	});
+</script>
+
+
+  
+
+
+
+
+  
+</body>
+
+</html>
