@@ -774,12 +774,6 @@ pre {
 .PGD {
   color: #a9a9a9;
 }
-hr {
-  border: 4px solid #87cefa;
-  border-radius: 10px;
-  width: 40px;
-  float: left;
-}
 article.nexmoe-py > *:first-child {
   margin-top: 0 !important;
 }
