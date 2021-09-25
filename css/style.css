@@ -667,6 +667,13 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+.DD {
+  color: #ff4500;
+  border: 1px solid #ff4500;
+  border-radius: 10px;
+  background-color: #ff4500;
+  width: 50px;
+}
 .AB {
   color: #000;
   border: 1px solid #ff6347;
