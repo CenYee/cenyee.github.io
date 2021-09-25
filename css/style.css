@@ -774,6 +774,13 @@ pre {
 .PGD {
   color: #a9a9a9;
 }
+hr {
+  border: 1px solid #87cefa;
+  background-color: #87cefa;
+  padding: 1px;
+  color: #87cefa;
+  border-radius: 10px;
+}
 article.nexmoe-py > *:first-child {
   margin-top: 0 !important;
 }
