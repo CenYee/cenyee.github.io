@@ -4,7 +4,7 @@
 
 <head>
   
-  <title>Markdown语法 - 动物农场和童话故事</title>
+  <title>hexo音乐播放器 - 动物农场和童话故事</title>
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -14,19 +14,19 @@
 
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/CemseLee/House/favicon.png" type="image/png" />
   <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown语法">
-<meta property="og:url" content="https://animalfarmandfairystory.com/e3cd40ffde64/index.html">
+<meta property="og:title" content="hexo音乐播放器">
+<meta property="og:url" content="https://animalfarmandfairystory.com/add3df2fe101/index.html">
 <meta property="og:site_name" content="动物农场和童话故事">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-09-01T10:41:10.000Z">
-<meta property="article:modified_time" content="2021-09-01T10:44:41.488Z">
+<meta property="article:published_time" content="2021-10-19T15:01:13.000Z">
+<meta property="article:modified_time" content="2021-10-19T15:11:48.077Z">
 <meta property="article:author" content="动物农场和童话故事">
-<meta property="article:tag" content="Markdown">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/hexo-theme-nexmoe@latest/source/lib/mdui_043tiny/css/mdui.css,npm/hexo-theme-nexmoe@latest/source/lib/iconfont/iconfont.css?v=233" crossorigin>
-  <link rel="stylesheet" href="/css/style.css?v=1634690999203">
+  <link rel="stylesheet" href="/css/style.css?v=1634690999128">
   
-  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1634690999203">
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1634690999128">
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -199,14 +199,14 @@
   <article>
     
         <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
-            <img data-src="https://cdn.jsdelivr.net/gh/CemseLee/House/backpicture.png" data-sizes="auto" alt="Markdown语法" class="lazyload">
-            <h1>Markdown语法</h1>
+            <img data-src="https://cdn.jsdelivr.net/gh/CemseLee/House/backpicture.png" data-sizes="auto" alt="hexo音乐播放器" class="lazyload">
+            <h1>hexo音乐播放器</h1>
         </div>
     
     
     <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
-    <a><i class="nexmoefont icon-calendar-fill"></i>2021年09月01日</a>
-    <a><i class="nexmoefont icon-areachart"></i>316 字</a>
+    <a><i class="nexmoefont icon-calendar-fill"></i>2021年10月19日</a>
+    <a><i class="nexmoefont icon-areachart"></i>238 字</a>
     <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
 </div>
 
@@ -215,48 +215,20 @@
     </br>
 <span id="more"></span>
 
+<p>下载<a target="_blank" rel="noopener" href="https://github.com/DIYgod/APlayer">Aplayer</a>源码</p>
+<p>解压源码，把<code>dist</code>文件夹移到主题文件夹下的<code>source</code>文件夹中。</p>
+<p>在<code>dist</code>文件夹下新建<code>music.js</code>文件，内容如下：</p>
+<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs lisp">const ap = new APlayer(&#123;<br>    container: document.getElementById(&#x27;aplayer&#x27;),<br>    fixed: false,<br>    listFolded: false,<br>    listMaxHeight: <span class="hljs-number">90</span>,<br>    autoplay: true,<br>    lrcType: <span class="hljs-number">3</span>,<br>    audio: [<br>	&#123;<br>        name: <span class="hljs-string">&quot;Remnants (Kazukii Remix)&quot;</span>,<br>        artist: &#x27;Kazukii&#x27;,        <br>        url: &#x27;https<span class="hljs-symbol">://cdn</span>.jsdelivr.net/gh/CemseLee/House/Remnants%<span class="hljs-number">20</span>(<span class="hljs-name">Kazukii</span>%<span class="hljs-number">20</span>Remix).mp3&#x27;,<br>        cover: &#x27;https<span class="hljs-symbol">://cdn</span>.jsdelivr.net/gh/CemseLee/House/avatar.png&#x27;,<br>        lrc: &#x27;https<span class="hljs-symbol">://cdn</span>.jsdelivr.net/gh/CemseLee/House/Remnants.lrc&#x27;<br>      &#125;,<br>    &#123;<br>        name: <span class="hljs-string">&quot;Remnants (Kazukii Remix)&quot;</span>,<br>        artist: &#x27;Kazukii&#x27;,        <br>        url: &#x27;https<span class="hljs-symbol">://cdn</span>.jsdelivr.net/gh/CemseLee/House/Remnants%<span class="hljs-number">20</span>(<span class="hljs-name">Kazukii</span>%<span class="hljs-number">20</span>Remix).mp3&#x27;,<br>        cover: &#x27;https<span class="hljs-symbol">://cdn</span>.jsdelivr.net/gh/CemseLee/House/avatar.png&#x27;,<br>        lrc: &#x27;https<span class="hljs-symbol">://cdn</span>.jsdelivr.net/gh/CemseLee/House/Remnants.lrc&#x27;<br>      &#125;<br>      ]<br>&#125;)<span class="hljs-comment">;</span><br><br></code></pre></td></tr></table></figure>
 
-<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>语法：</p>
-<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs vala"><span class="hljs-meta"># 标题文字</span><br><br><span class="hljs-meta">#的个数表示标题的等级</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h3><p>语法：</p>
-<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc"><span class="hljs-strong">*这是斜体*</span><br><span class="hljs-strong">**这是粗体**</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="段落与换行"><a href="#段落与换行" class="headerlink" title="段落与换行"></a>段落与换行</h3><p>语法：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs">空行是强制分段的符号。<br><br>两个或两个以上的空格，是强制分行的符号。<br></code></pre></td></tr></table></figure>
-<p>行与行之间没有空行，则是同一个段落。</p>
-<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>语法：</p>
-<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs autohotkey">`---`<br><br>分割线用三个或以上的减号-标记。<br></code></pre></td></tr></table></figure>
-
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>语法：</p>
-<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs autohotkey">`行内代码`<br>```代码块```<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>语法：</p>
-<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs less">!<span class="hljs-selector-attr">[图片替代文字]</span>(图片地址)<br><br>图片替代文字在图片无法显示时显示，可以为空。<br></code></pre></td></tr></table></figure>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="文字链接"><a href="#文字链接" class="headerlink" title="文字链接"></a>文字链接</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs less"><span class="hljs-selector-attr">[链接文字]</span>(链接地址)<br><br>链接文字与链接地址在一起，可读性差。<br></code></pre></td></tr></table></figure>
-<h3 id="引用链接"><a href="#引用链接" class="headerlink" title="引用链接"></a>引用链接</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs stylus"><span class="hljs-selector-attr">[链接文字]</span><br><span class="hljs-selector-attr">[链接文字]</span>:wwwww<span class="hljs-selector-class">.google</span><span class="hljs-selector-class">.com</span><br><br>统一定义好链接文字对应的链接，然后在正文中引用。<br></code></pre></td></tr></table></figure>
-<p>示例：<br>人们使用<a href="www.google.com">google</a>搜索资料。</p>
-<h3 id="网址链接"><a href="#网址链接" class="headerlink" title="网址链接"></a>网址链接</h3><p>语法：</p>
-<figure class="highlight bnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bnf"><span class="hljs-attribute">&lt;网址/邮箱&gt;</span><br><br>网址或者邮箱用<span class="hljs-attribute">&lt;&gt;</span>包裹起来，会转换成链接。<br></code></pre></td></tr></table></figure>
-
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc">有序列表语法：<br>数字 英文句号 空格 列表内容<br><br>无序列表语法：<br><span class="hljs-bullet">- </span>空格 列表内容<br></code></pre></td></tr></table></figure>
-
-<p>示例</p>
-<ol>
-<li>这是有序列表</li>
-</ol>
-<ul>
-<li>这是无序列表</li>
-</ul>
-
+<p>在文章中需要的位置引用：</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs routeros">&lt;link <span class="hljs-attribute">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attribute">href</span>=<span class="hljs-string">&quot;/dist/APlayer.min.css&quot;</span>&gt;<br>&lt;div <span class="hljs-attribute">id</span>=<span class="hljs-string">&quot;aplayer&quot;</span>&gt;&lt;/div&gt;<br>&lt;script <span class="hljs-attribute">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attribute">src</span>=<span class="hljs-string">&quot;/dist/APlayer.min.js&quot;</span>&gt;&lt;/script&gt;<br>&lt;script <span class="hljs-attribute">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attribute">src</span>=<span class="hljs-string">&quot;/dist/music.js&quot;</span>&gt;&lt;/script&gt;<br><br></code></pre></td></tr></table></figure>
   </article>
 
   
     
   <div class="nexmoe-post-copyright">
     <strong>本文作者：</strong>动物农场和童话故事<br>
-    <strong>本文链接：</strong><a href="https://animalfarmandfairystory.com/e3cd40ffde64/" title="https:&#x2F;&#x2F;animalfarmandfairystory.com&#x2F;e3cd40ffde64&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;animalfarmandfairystory.com&#x2F;e3cd40ffde64&#x2F;</a><br>
+    <strong>本文链接：</strong><a href="https://animalfarmandfairystory.com/add3df2fe101/" title="https:&#x2F;&#x2F;animalfarmandfairystory.com&#x2F;add3df2fe101&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;animalfarmandfairystory.com&#x2F;add3df2fe101&#x2F;</a><br>
     
       <strong>版权声明：</strong>本文版权归作者所有。
     
@@ -268,7 +240,7 @@
   <div class="nexmoe-post-meta nexmoe-rainbow">
     
     
-        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/Markdown/" rel="tag">Markdown</a>
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/hexo/" rel="tag">hexo</a>
     
 </div>
 
@@ -295,13 +267,6 @@
                   
                   
                   
-                    <button class="mdui-fab catalog" style="overflow:unset;">
-                      <i class="nexmoefont icon-i-catalog"></i>
-                      <div class="nexmoe-toc">
-                        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E4%BD%93"><span class="toc-number">1.</span> <span class="toc-text">字体</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E9%A2%98"><span class="toc-number">1.1.</span> <span class="toc-text">标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93%E4%B8%8E%E6%96%9C%E4%BD%93"><span class="toc-number">1.2.</span> <span class="toc-text">粗体与斜体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD%E4%B8%8E%E6%8D%A2%E8%A1%8C"><span class="toc-number">1.3.</span> <span class="toc-text">段落与换行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%89%B2%E7%BA%BF"><span class="toc-number">1.4.</span> <span class="toc-text">分割线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">2.</span> <span class="toc-text">代码块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%89%87"><span class="toc-number">3.</span> <span class="toc-text">图片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5"><span class="toc-number">4.</span> <span class="toc-text">链接</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E5%AD%97%E9%93%BE%E6%8E%A5"><span class="toc-number">4.1.</span> <span class="toc-text">文字链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E9%93%BE%E6%8E%A5"><span class="toc-number">4.2.</span> <span class="toc-text">引用链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E5%9D%80%E9%93%BE%E6%8E%A5"><span class="toc-number">4.3.</span> <span class="toc-text">网址链接</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8"><span class="toc-number">5.</span> <span class="toc-text">列表</span></a></li></ol>
-                      </div>
-                    </button>
-                  
                     
                 
               
@@ -317,7 +282,7 @@
 
  
 
-<script async src="/js/app.js?v=1634690999205"></script>
+<script async src="/js/app.js?v=1634690999132"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
