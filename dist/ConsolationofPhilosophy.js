@@ -1,9 +1,5 @@
 const apConsolationofPhilosophy = new APlayer({
     container: document.getElementById('aplayerConsolationofPhilosophy'),
-    fixed: false,
-    listFolded: false,
-    mutex: true,
-    listMaxHeight: 90,
     audio: [
 	{
         name: "哲学的安慰",
