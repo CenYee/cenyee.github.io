@@ -4,7 +4,7 @@ const apConsolationofPhilosophy = new APlayer({
     listFolded: false,
     mutex: true,
     listMaxHeight: 90,
-    autoplay: true,
+    autoplay: false,
     audio: [
 	{
         name: "哲学的安慰",

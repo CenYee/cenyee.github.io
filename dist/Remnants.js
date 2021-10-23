@@ -1,10 +1,10 @@
 const apRemnants = new APlayer({
     container: document.getElementById('aplayerRemnants'),
     fixed: false,
-    listFolded: false,
+    listFolded: true,
     mutex: true,
     listMaxHeight: 90,
-    autoplay: true,
+    autoplay: false,
     audio: [
 	{
         name: "Remnants",
