@@ -4,7 +4,6 @@ const apRemnants = new APlayer({
     listFolded: true,
     mutex: true,
     listMaxHeight: 90,
-    autoplay: false,
     audio: [
 	{
         name: "Remnants",
